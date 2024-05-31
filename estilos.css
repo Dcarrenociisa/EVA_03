@@ -1,0 +1,184 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eceff3;
+}
+.container {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+.section {
+    display: flex;
+    text-align: justify;
+}
+.section.active {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.pie {
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #d9e1e3;
+    font-family: Arial, sans-serif;
+}
+.contenedor_contacto {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.boton {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #dfe5e8;
+    color: #6a6868;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: #c8c3c3;
+}
+h1 {
+    text-align: center;
+}
+.contact-info {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.form-label {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #dfe5e8;
+    color: #6a6868;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-contenido {
+    background-color: #dfe5e8;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid olivedrab;
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+
+}
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.cerrar:hover,
+.cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.obra {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+.imagen {
+    cursor: pointer;
+}
+.boton-eliminar {
+    width: 50%;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #dfe5e8;
+    color: #6a6868;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Diseño para la advertencia */
+.campo {
+
+    color: #333; /* Color del texto */
+    margin-bottom: 5px;
+}
+
+.mensaje-error {
+    background-color: #dfe5e8;
+    color: #6a6868;
+    font-size: 14px;
+    display: none;
+    border: solid olivedrab; /* Agregar borde */
+    padding: 5px; /* Agregar relleno */
+    border-radius: 5px;
+    
+}
+
+.mensaje-exito {
+    background-color: #dfe5e8;
+    color: #6a6868;
+    font-size: 14px;
+    display: none;
+    border: solid olivedrab; /* Agregar borde */
+    padding: 5px; /* Agregar relleno */
+    border-radius: 5px;
+
+}
+.mensaje-error-validacion {
+    background-color: #dfe5e8;
+    color: #6a6868;
+    font-size: 14px;
+    display: none;
+    border: solid olivedrab; /* Agregar borde */
+    padding: 5px; /* Agregar relleno */
+    border-radius: 5px;
+
+}
+
+/* Para ajustar la imagen en el modal */
+#imagen-obra {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
